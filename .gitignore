@@ -1,4 +1,5 @@
 /target
+<<<<<<< HEAD
 
 
 # Added by cargo
@@ -13,3 +14,5 @@
 # already existing elements were commented out
 
 #/target
+=======
+>>>>>>> fc0d977 (lib)
