@@ -1,17 +1,14 @@
 use std::mem;
 
-#[allow(dead_code)]
 pub struct List {
     head: Link,
 }
 
-#[allow(dead_code)]
 enum Link {
     Empty,
     More(Box<Node>),
 }
 
-#[allow(dead_code)]
 struct Node {
     elem: i32,
     next: Link,
@@ -80,4 +77,3 @@ mod test {
         assert_eq!(list.pop(), None);
     }
 }
-
